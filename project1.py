@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import pickle as pkl
+pip install folium
 import folium
 import numpy as np
 import matplotlib.pyplot as plt

@@ -9,6 +9,7 @@ LogisticRegression
 pickle
 StanderScaler
 scikit-learn
+folium
 -----
 -----
 IPython =7.12.0

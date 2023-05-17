@@ -98,7 +98,7 @@ loaded_model = pkl.load(open(r'C:\Users\LENOVO\Downloads\clf.pkl' ,'rb'))
 
 
 #predict the output
-predictx= loaded_model.predict(x_new)[0]
+pred= loaded_model.predict(x_new)[0]
 
     
     
@@ -107,5 +107,5 @@ if st.button("Predict"):
     st.error('Warning! this restaurant is not probably going to succeed!')
     
   else:
-    st.success('wow, good luck with this successeful resaurant!')
+    st.success('wow, good luck with this successeful restaurant!')
     

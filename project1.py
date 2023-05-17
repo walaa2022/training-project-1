@@ -54,7 +54,7 @@ total_cuisines = len(cuisineoptions)
 # Create a map centered on a specific location
 map_center = [12.9715987, 77.5945627]  # Replace with the desired center coordinates
 zoom_level = 12  # Adjust the zoom level as needed
-map = folium.Map(location=map_center, zoom_start=zoom_level)
+
 
 
 # Add markers for each city on the map

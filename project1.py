@@ -10,14 +10,6 @@ import numpy as np
 #%%writefile project1.py
 
 import base64
-import sklearn
-import numpy as np
-
-from sklearn.preprocessing import StandardScaler
-scaler= StandardScaler()
-
-#Load the saved model
-model= pkl.load(open(r'C:\Users\LENOVO\Downloads\logreg_best.pkl', 'rb'))
 
 st.set_page_config(page_title="Predicting success of new restaurants",page_icon="⚕️",layout="centered",initial_sidebar_state="expanded")
 

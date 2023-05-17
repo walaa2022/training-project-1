@@ -65,24 +65,6 @@ city_coordinates = {'BTM':[45.954851,-112.496595],'Koramangala 7th Block':[12.93
 'New BEL Road':[13.024348,77.572001]}
 
 
-for city, coordinates in city_coordinates.items():
-    folium.Marker(location=coordinates, popup=city).add_to(map)
-
-# Function to handle click event
-def on_map_click(event):
-    if event.get('type') == 'click':
-        selected_city = event.get('name')
-        if selected_city:
-            st.session_state.selected_city = selected_city
-            st.write("Selected city:", selected_city)
-            # Update the selectbox value
-            st.session_state.selectbox_value = selected_city
-
-# Convert the map to HTML
-map_html = map.get_root().render()
-
-# Display the map in Streamlit
-st.components.v1.html(map_html, width=800, height=600, scrolling=True)
 
 # Get the selected city from the user
 listed_in_city = st.selectbox("Select a city", list(city_coordinates.keys()), key="selectbox", index=0)

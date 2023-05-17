@@ -46,9 +46,6 @@ multiple_types = len(rest_types)
 cuisineoptions = st.multiselect('type of cuisine',("North Indian","fast food","biryani","continental","Chinese","desserts","Cafe","Mexican","Italian","South Indian","Beverages"))
 
 total_cuisines = len(cuisineoptions)
- 
-
-import folium
 
 # Define city coordinates
 

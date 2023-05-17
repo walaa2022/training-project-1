@@ -11,6 +11,10 @@ import numpy as np
 
 import base64
 
+st.title ('Predicting success of new restaurants')
+st.image ('https://www.posist.com/restaurant-times/wp-content/uploads/2019/04/The-Secret-Cook-Book-To-A-Successful-Restaurant.jpg')
+
+
 st.set_page_config(page_title="Predicting success of new restaurants",page_icon="⚕️",layout="centered",initial_sidebar_state="expanded")
 
 

@@ -88,13 +88,13 @@ if feedback:
 df_new = pd.DataFrame ({'online_order': [online_order], 'book_table':[book_table], "approx_cost": [approx_cost], 'listed_in(city)': [listed_in_city], 'listed_in(types)':[listed_in_types], 'multiple_types': [multiple_types], 'total_cuisines': [total_cuisines]})
     
 # load transformer
-transformer = pkl.load(open('C:\Users\LENEOVO\Downloads\transformer.pkl','rb'))
+transformer = pkl.load(open('C:\Users\LENOVO\Downloads\transformer.pkl','rb'))
 
 #apply transformer on inputs
 x_new = transformer.transform (df_new)
 
 # load model                      
-loaded_model = pkl.load(open('C:\Users\LENEOVO\Downloads\clf.pkl' ,'rb'))
+loaded_model = pkl.load(open('C:\Users\LENOVO\Downloads\clf.pkl' ,'rb'))
 
 
 #predict the output

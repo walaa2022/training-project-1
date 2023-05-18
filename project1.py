@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import pickle as pkl
-import folium
+
 import numpy as np
 
 

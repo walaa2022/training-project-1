@@ -1,8 +1,8 @@
 
 numpy
-pandas
-streamlit
+pandas==1.4.2
+streamlit==1.13.0
 pickle
 StanderScaler
-scikit-learn 1.2.2
+scikit-learn 1.2.0
 Python 3.7.6
